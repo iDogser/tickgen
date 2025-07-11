@@ -15,7 +15,7 @@ However, in real-world applications, due to natural delays introduced by:
 - Event loop scheduling  
 
 the likelihood of two users triggering ID generation with **identical timing down to the tenth of a millisecond** is **extremely low**.
-For most use cases — especially in web systems or event-driven backends — **tickgen** provides **practically collision-free identifiers** without requiring locks, mutexes, or centralized coordination.
+For most use cases – especially in web systems or event-driven backends – **tickgen** provides **practically collision-free identifiers** without requiring locks, mutexes, or centralized coordination.
 
 
 ---
