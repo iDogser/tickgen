@@ -25,7 +25,7 @@ For most use cases – especially in web systems or event-driven backends – **
 Each generated ID is composed of:
 
 - **Last 2 digits of the year**
-- **Last digit of the month**
+- **Full month**
 - **Full day**
 - **Hour**
 - **Minute**
