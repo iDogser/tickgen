@@ -7,7 +7,7 @@ class TimestampGenerator:
     def generate_id(self) -> int:
         now = datetime.now()
         year = now.year % 100
-        month_last_digit = int(str(now.month)[-1])
+        month = now.month
         day = now.day
         hour = now.hour
         minute = now.minute
@@ -16,7 +16,7 @@ class TimestampGenerator:
 
         result = (
             f"{year:02}"
-            f"{month_last_digit}"
+            f"{month:02}"
             f"{day:02}"
             f"{hour:02}"
             f"{minute:02}"
