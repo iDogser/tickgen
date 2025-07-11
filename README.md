@@ -32,4 +32,4 @@ Each generated ID is composed of:
 - **Second**
 - **First two digits of milliseconds**
 
-Example output: 2571200024080, 2571200024082, etc.
+Example output: 25071202562170, 25071202562172, etc.
