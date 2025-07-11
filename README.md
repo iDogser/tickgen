@@ -25,3 +25,4 @@ Each generated ID is composed of:
 Example output:
 2571200024080
 2571200024082
+etc.
