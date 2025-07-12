@@ -6,7 +6,7 @@ from typing import List
 class TimestampGenerator:
     def generate_id(self) -> int:
         now = datetime.now()
-        year = now.year % 100
+        year = now.year % 10
         month = now.month
         day = now.day
         hour = now.hour
